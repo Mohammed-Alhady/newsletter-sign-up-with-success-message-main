@@ -1,0 +1,9 @@
+@mixin displayCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin smallColoms {
+    flex-direction: column;
+}

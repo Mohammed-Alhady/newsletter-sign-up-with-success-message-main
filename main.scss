@@ -1,0 +1,22 @@
+@use "./src/scss/layout" as *;
+@use "./src/scss/vars" as *;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $Charcoal-Grey;
+    min-height: 100vh;
+    font-size: $paragraph-size;
+    line-height: 1.8;
+    display: grid;
+    place-content: center;
+    font-family: 'Roboto', sans-serif;
+    @media (max-width: 768px) {
+        display: initial;
+        line-height: 1.4;
+    }
+}
