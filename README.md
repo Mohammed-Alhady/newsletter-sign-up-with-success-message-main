@@ -2,6 +2,8 @@
 
 ![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)
 
+https://mohammed-alhady.github.io/newsletter-sign-up-with-success-message-main/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
